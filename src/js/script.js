@@ -1,4 +1,4 @@
-document.querySelector(".btn-advice").addEventListener('click', gerarNovoConselho)
+document.querySelector(".button-advice").addEventListener('click', gerarNovoConselho)
 
 async function gerarNovoConselho(){
     try {

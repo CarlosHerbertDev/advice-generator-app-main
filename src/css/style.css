@@ -40,7 +40,7 @@ main {
 }
 
 
-.card .btn-advice {
+.card .button-advice {
     background-color: var(--advice-dice-color);
     width: 60px;
     height: 60px;
@@ -49,7 +49,7 @@ main {
     transform: translateY(50%);
 }
 
-.card .btn-advice:hover {
+.card .button-advice:hover {
     box-shadow: 0 5px 15px var(--advice-dice-color);
     color: #53FFAB;
     cursor: pointer;
