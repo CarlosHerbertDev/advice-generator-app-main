@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--advice-card-color);
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 345px;
+}
+
+.card .advice-number {
+    color: var(--advice-dice-color);
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+
+.card .advice-of-day {
+    color: var(--text-colo);
+    font-size: 23px;
+    padding: 23px;
+    text-align: center;
+}
+
+
+.card .button {
+    background-color: var(--advice-dice-color);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%; 
+    transform: translateY(50%);
+}
+
+.card .button:hover {
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+    color: #53FFAB;
+    cursor: pointer;
+}
