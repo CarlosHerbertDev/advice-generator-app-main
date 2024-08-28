@@ -30,4 +30,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Esse é o Advice Geneeator App!
 
-- [Acesse o projeto finalizado, online](https://carlosherbertdev.github.io/formulario-js/)
+- [Acesse o projeto finalizado, online](https://carlosherbertdev.github.io/advice-generator-app-main/)
