@@ -4,7 +4,7 @@ async function gerarNovoConselho(){
     try {
         const url = await fetch('https://api.adviceslip.com/advice')
             if (!url.ok) {
-                throw new Error("Ops, parace que tivemos um erro com a resposta da API!");
+                throw new Error("Ops, parace que tivemos um erro com a resposta da API!!");
             }
 
         const resp = await url.json()
